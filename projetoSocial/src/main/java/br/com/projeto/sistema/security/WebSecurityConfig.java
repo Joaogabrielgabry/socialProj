@@ -40,7 +40,7 @@ public class WebSecurityConfig {
 				.sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
 				.authorizeHttpRequests(auth -> auth
 						.requestMatchers("/g6/**", "/auth/**", "/h2-console/**", "/roles/**", "/test/all/**",
-								"/swagger-ui/**", "/v3/api-docs/**", "/actuator/**").permitAll()
+								"/swagger-ui/**", "/v3/api-docs/**", "/actuator/**", "/listas/**").permitAll()
 						.requestMatchers("/test/user/**").hasAnyRole("A", "B")
 						.anyRequest().authenticated());
 
