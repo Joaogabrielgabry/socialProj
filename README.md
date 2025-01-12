@@ -64,7 +64,7 @@ SocialProj é uma aplicação desenvolvida com **Spring Boot** que implementa um
    ```
 
 4. **Acesse a aplicação**:
-   - [http://localhost:8000](http://localhost:8000)
+   - [http://localhost:8000/projetosocial/swagger-ui/index.html#/](http://localhost:8000/projetosocial/swagger-ui/index.html#/)
 
 ---
 
